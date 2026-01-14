@@ -11,7 +11,7 @@ ini_set("error_log", "");
 error_log("=== API Request ===");
 error_log("Time: " . date("Y-m-d H:i:s"));
 
-$apiKey = "AIzaSyBrrq9ca_6pzyf7Pc842odeg3-JaX1VENM"; // 🔑 Replace with your valid Google Cloud API key
+$apiKey = "AIzaSyATuE5kJr4AQHgK0Cj04FQd03mTfVMScHQ"; // 🔑 Replace with your valid Google Cloud API key
 $model = "gemini-2.5-flash-image-preview";
 
 $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/{$model}:generateContent";
